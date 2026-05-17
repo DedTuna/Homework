@@ -1,0 +1,233 @@
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.dau-trang {
+    background: #fff;
+    padding: 15px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #333;
+}
+
+.logo-chinh img {
+    height: 60px;
+}
+
+.cum-tien-ich {
+    display: flex;
+    gap: 25px;
+}
+
+.muc-tien-ich {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 11px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #333;
+    transition: color 0.2s;
+}
+
+.muc-tien-ich i {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.muc-tien-ich:hover {
+    color: #d1208a;
+}
+
+.thanh-menu {
+    background: #333;
+    padding: 12px 0;
+    text-align: center;
+}
+
+.thanh-menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.khung-ngoai {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.tieu-de-tang {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tieu-de-tang h1 {
+    color: #d1208a;
+    font-size: 25px;
+    margin: 0 20px;
+}
+
+.duong-ke {
+    height: 1px;
+    background: #d1208a;
+    flex-grow: 0.2;
+}
+
+.chon-tang {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #0056b3;
+}
+
+.chon-tang a {
+    text-decoration: none;
+    color: #0056b3;
+    padding: 0 8px;
+}
+
+.dang-chon {
+    color: #d1208a !important;
+    font-weight: bold;
+}
+
+.o-tim-kiem {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.o-tim-kiem input {
+    width: 400px;
+    padding: 12px 25px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    outline: none;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.danh-sach-logo {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.the-thuong-hieu {
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+    border-radius: 8px;
+}
+
+.the-thuong-hieu:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.hinh-anh img {
+    max-width: 100%;
+    height: 120px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.the-thuong-hieu h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.loai-hinh {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.so-tang {
+    font-weight: bold;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+    color: #333;
+}
+
+.banner-giua {
+    margin: 60px 0;
+    text-align: center;
+}
+
+.khung-anh-banner {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.khung-anh-banner img {
+    width: 100%;
+    border-radius: 5px;
+    display: block;
+}
+
+.nut-xem-them {
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.nut-xem-them:hover {
+    background: white;
+    color: #333;
+}
+
+.phan-chan {
+    background-color: #fff;
+    padding: 60px 0;
+    border-top: 1px solid #eee;
+}
+
+.noi-dung-chan {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.cot-thong-tin {
+    flex: 1;
+}
+
+.cot-thong-tin h3 {
+    font-size: 15px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.cot-thong-tin p {
+    font-size: 13px;
+    color: #555;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.info-dam h3, .info-dam p {
+    font-weight: bold;
+    color: #000;
+}
